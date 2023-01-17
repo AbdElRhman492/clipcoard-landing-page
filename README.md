@@ -10,13 +10,8 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -31,8 +26,6 @@ Users should be able to:
 
 ![Desktop Layout](./design/desktop.png)
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/abdelrhman492/clipcoard-landing-page)
@@ -44,11 +37,6 @@ Users should be able to:
 - SASS Preprocessor
 - Flexbox
 - Desktop-first workflow
-
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 To see how you can add code snippets, see below:
 
