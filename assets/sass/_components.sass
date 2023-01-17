@@ -1,0 +1,32 @@
+.container
+  width: 100%
+  padding-right: 0.75rem
+  padding-left: 0.75rem
+  margin-right: auto
+  margin-left: auto
+
+.title-container
+  text-align: center
+  width: 620.5px
+  margin: 40px auto
+
+.buttons
+  margin: auto
+  @include flex(row, center, center)
+  gap: 10px
+  flex-wrap: wrap
+  button
+    padding: 12px 20px
+    font-family: 'Bai Jamjuree'
+    border-radius: 30px
+    border: none
+    color: #fff
+    display: block
+    font-weight: 600
+    cursor: pointer
+    &.success
+      background: var(--strong-cyan)
+      border-bottom: 3px solid hsl(171, 66%, 35%)
+    &.primary
+      background: var(--light-blue)
+      border-bottom: 3px solid hsl(233, 100%, 62%)

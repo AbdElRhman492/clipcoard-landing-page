@@ -1,0 +1,45 @@
+@media (min-width: 576px)
+  .container
+    max-width: 540px
+
+@media (min-width: 768px)
+  .container
+    max-width: 720px
+  .about
+    .container
+      .hero
+        @include flex(row, space-between, center)
+        gap: 35px
+        &-content
+          .item
+            width: 100%
+            text-align: left
+
+@media (min-width: 991px)
+  .container
+    max-width: 960px
+
+@media (min-width: 1200px)
+  .container
+    max-width: 1140px
+
+@media (min-width: 1400px)
+  .container
+    max-width: 1320px
+
+@media ( max-width: 768px )
+  .title-container
+    width: auto !important
+
+@media ( max-width: 525px )
+  footer
+    .container
+      .real-footer
+        justify-content: center
+        flex-direction: column !important
+        .links
+          display: block !important
+          text-align: center
+          ul
+            li
+              margin-bottom: 15px
